@@ -1,0 +1,71 @@
+body{
+    background-color: antiquewhite;
+}
+.re-section{
+    position: relative;
+    left:340px;
+    top:20px;
+    width: 1200px;
+    height:850px;
+    background: url("../photo/timg (1).jpg") no-repeat center center;
+}
+.desc{
+    position: absolute;
+    height: 430px;
+    width: 500px;
+    left: 348px;
+    top: 180px;
+    background-color: rgba(0,0,0,0);
+}
+input{
+    width:276px;
+    height: 48px;
+    display: block;
+    background-color: rgba(255,255,255,0.8);
+    border-radius: 5px;
+    boder:10px rgba(255,255,255,0.8);
+    font-size: 18px;
+    text-align: left;
+    margin-left: 120px;
+    margin-top: 90px;
+}
+div input{
+    width:30px;
+    height:30px;
+    margin-left:130px ;
+    margin-top: 60px;
+    text-align: right;
+    float: left;
+}
+
+.p4{
+    position: fixed;
+    left:750px;
+    top:25px;
+    font-size: 50px;
+}
+.btn{
+    width:80px;
+    height: 44px;
+    border-radius: 4px;
+    text-align: center;
+    margin-left: 200px;
+    margin-top: 60px;
+    color: #ee11ee;
+    background: #0000BB;
+    border-radius: 6px;
+}
+.btn:hover{
+    border: 1px solid #253737;
+    text-shadow: 0 1px 0 #333333;
+    background: #00B0DC;
+    color: #ffffff;
+}
+.replay{
+           position: fixed;
+           top:90px;
+           left:100px;
+           color:red;
+           background-color:gray;
+       }
+
